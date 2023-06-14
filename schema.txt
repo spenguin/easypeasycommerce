@@ -1,0 +1,21 @@
+-product
+(use custom post type)
+
+
+-product_meta
+
+
+
+-order
+    - id
+    - created
+    - total
+    - taxes
+    - payment
+
+-order_item
+    - id
+    - order_id
+    - product_id
+    - quantity
+    - product_charge
